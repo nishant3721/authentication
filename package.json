@@ -1,0 +1,36 @@
+{
+  "name": "apis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/double-slit/Wristband-Playmaker.git"
+  },
+  "author": "Nishant Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/double-slit/Wristband-Playmaker/issues"
+  },
+  "homepage": "https://github.com/double-slit/Wristband-Playmaker#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.5",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  },
+  "engines": {
+    "node": "16.13.1",
+    "npm": "8.1.2"
+  }
+}
